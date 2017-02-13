@@ -3,6 +3,7 @@ We were trying to accomplish an increased sense of space within a webpage. Graph
 
     function setup() {
 createCanvas(500, 500);
+        background(0);
     }
 
 
@@ -10,7 +11,7 @@ createCanvas(500, 500);
 
 
 function draw() {
-background(0);
+
     // hair
    fill(203, 109, 81);
    rect(110, 138, 180, 200);
