@@ -1,8 +1,15 @@
 // Maeve Potter, mp0000@bard.edu, no collaboration, it doesn't fully work and I don't know why.. In github, the canvas doesn't appear.
 We were trying to accomplish an increased sense of space within a webpage. Graphics are different from text in that it is a much more visual process.
-function setup() {
+
     function setup() {
 createCanvas(500, 500);
+    }
+
+
+
+
+
+function draw() {
 background(0);
     // hair
    fill(203, 109, 81);
@@ -60,10 +67,4 @@ rect(130, 138, 140, 30);
     fill(0, 0, 0);
 rect(135, 300, 130, 50);
     rect(165, 440, 70, 40);
-
-}
-}
-
-function draw() {
-
 }
